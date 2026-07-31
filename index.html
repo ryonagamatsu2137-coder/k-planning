@@ -3,13 +3,224 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>K・Planning</title>
+<title>K・Planning | 建築機械設備設計・施工図作成</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Yu Gothic",sans-serif;
+    line-height:1.8;
+    color:#333;
+}
+
+header{
+    background:
+    linear-gradient(rgba(15,59,102,0.75),rgba(15,59,102,0.75)),
+    url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1600');
+    background-size:cover;
+    background-position:center;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+h2{
+    color:#0f3b66;
+    border-left:6px solid #0f3b66;
+    padding-left:10px;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    flex:1;
+    min-width:280px;
+    background:#f5f7fa;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.software{
+    background:#eef4fa;
+}
+
+.software ul{
+    margin-left:20px;
+}
+
+.results{
+    background:#fafafa;
+}
+
+.result-box{
+    border-left:4px solid #0f3b66;
+    padding:15px;
+    margin-bottom:15px;
+}
+
+form{
+    max-width:700px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#0f3b66;
+    color:#fff;
+    border:none;
+    padding:12px 30px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+footer{
+    background:#0f3b66;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
 </head>
+
 <body>
 
+<header>
 <h1>K・Planning</h1>
-
 <p>建築機械設備の設計図および施工図作成</p>
+</header>
+
+<section>
+<h2>業務内容</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>設備設計図作成</h3>
+<p>
+給排水衛生設備、空気調和設備、
+消火設備等の設計図作成を行います。
+</p>
+</div>
+
+<div class="card">
+<h3>施工図作成</h3>
+<p>
+施工現場で活用できる、
+実用性の高い施工図を作成します。
+</p>
+</div>
+
+<div class="card">
+<h3>BIM対応</h3>
+<p>
+3Dモデル作成、
+干渉チェックに対応します。
+</p>
+</div>
+
+</div>
+</section>
+
+<section class="software">
+<h2>使用ソフト</h2>
+
+<ul>
+<li>Rebro</li>
+<li>Tfas</li>
+<li>AutoCAD</li>
+<li>Jw_cad</li>
+<li>Microsoft Excel</li>
+<li>Microsoft Word</li>
+</ul>
+
+</section>
+
+<section class="results">
+<h2>施工実績</h2>
+
+<div class="result-box">
+共同住宅 設備施工図作成
+</div>
+
+<div class="result-box">
+事務所ビル 空調設備施工図作成
+</div>
+
+<div class="result-box">
+商業施設 給排水衛生設備施工図作成
+</div>
+
+<div class="result-box">
+BIMモデル作成・干渉チェック
+</div>
+
+</section>
+
+<section>
+<h2>お問い合わせ</h2>
+
+<p>
+お問い合わせはメールにて承っております。
+</p>
+
+<form>
+
+<label>お名前</label>
+<input type="text" placeholder="お名前">
+
+<label>メールアドレス</label>
+<input type="email" placeholder="example@example.com">
+
+<label>お問い合わせ内容</label>
+<textarea rows="6"></textarea>
+
+<button type="submit">送信</button>
+
+</form>
+
+<p style="margin-top:20px;">
+※メール送信機能は後でFormspree等と連携して有効化できます。
+</p>
+
+</section>
+
+<footer>
+© 2026 K・Planning All Rights Reserved.
+</footer>
 
 </body>
 </html>
